@@ -15,3 +15,17 @@ class Solution {
     }
 }
 
+// Another way, using stack
+class Solution {
+    public String removeDuplicates(String s) {
+        Stack<String> stack = new Stack<String>();
+        for(int i:s){
+            if(stack.empty())
+                stack.push(s(i));
+            if(stack.top() == s(i))
+                stack.pop();
+            
+            return stack;
+        }
+    }
+}
