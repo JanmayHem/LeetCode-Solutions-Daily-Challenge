@@ -1,11 +1,8 @@
 class StockSpanner {
-    
     Stack<int[]> st;
-    
     public StockSpanner() {
         st = new Stack<>();
-    }
-    
+    } 
     public int next(int price) {
         int span = 1;
         while(st.size()>0 && price>=st.peek()[0]){
