@@ -1,3 +1,8 @@
+/*
+Runtime: 6 ms Beats 89.26%
+Memory: 42.2 MB Beats 81.94%
+*/
+
 class Solution {
     public int evalRPN(String[] tokens) {
         Set<String> operators = new HashSet<>(Arrays.asList("+", "-", "/", "*"));
