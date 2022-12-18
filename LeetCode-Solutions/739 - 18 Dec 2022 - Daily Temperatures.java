@@ -1,3 +1,8 @@
+/*
+Runtime: 145 ms Beats 72.4%
+Memory: 54.8 MB Beats 84.13%
+*/
+
 class Solution {
     public int[] dailyTemperatures(int[] temperatures) {
         Stack<Integer> temp = new Stack<>();
