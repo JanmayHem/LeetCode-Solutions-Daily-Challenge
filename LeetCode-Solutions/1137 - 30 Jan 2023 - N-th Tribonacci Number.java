@@ -1,5 +1,6 @@
 /*
 Runtime: 0 ms Beats 100%
+Memory: 39 MB Beats 80.79%
 */
 
 class Solution {
