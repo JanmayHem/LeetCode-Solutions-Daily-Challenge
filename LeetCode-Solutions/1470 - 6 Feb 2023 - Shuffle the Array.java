@@ -1,6 +1,6 @@
 /*
 Runtime: 0 ms Beats 100%
-Memory: 42.4 MB Beats 69.16%
+Memory: 41.9 MB Beats 98.38%
 */
 
 class Solution {
@@ -11,10 +11,10 @@ class Solution {
             ans[j] = nums[i];
             j+=2;
         }
-        int k=1;
+        j=1;
         for(int i=n; i<2*n; i++){
-            ans[k] = nums[i];
-            k+=2;
+            ans[j] = nums[i];
+            j+=2;
         }
         return ans;
     }
