@@ -8,7 +8,7 @@ Beats 80.80% of users with Java
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
-        int l=0, r=n-1;
+        int l=0, r=arr.length-1;
         return binarySearch(l, r, arr);
     }
 
