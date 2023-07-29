@@ -4,7 +4,7 @@ Beats 88.33%
 */
 
 class Solution{
-    public double siupServing(int n){
+    public double soupServings(int n){
         return n >= 4800? 1.0 : serve((n+24)/25, (n+24)/25);
     }
 
